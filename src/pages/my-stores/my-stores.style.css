@@ -1,0 +1,10 @@
+.profile-image {
+    width:150px;
+}
+.store-image-card {
+    display: block;
+    max-width:500px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}

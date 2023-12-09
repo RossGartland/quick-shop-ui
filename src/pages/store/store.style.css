@@ -1,0 +1,36 @@
+.widget-boxed {
+    border-radius: 6px;
+    padding: 0 12px 32px 20px;
+    transform: translate3d(0,0,0);
+    z-index: 90;
+    margin-bottom: 35px;
+    position: relative;
+    border: 1px solid #eaeff5;
+    box-shadow: 0 0 10px 1px rgb(71 85 95 / 8%);
+    -webkit-box-shadow: 0 0 10px 1px rgb(71 85 95 / 8%);
+    -moz-box-shadow: 0 0 10px 1px rgba(71,85,95,0.08);
+}
+.widget-boxed-header {
+    padding: 5px 0;
+}
+
+.side-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.side-list ul li {
+    list-style: none;
+    /* padding: 10px 5px; */
+    display: inline-block;
+    width: 100%;
+}
+.side-list ul li span {
+    float: right;
+}
+.myBasket {
+    position: fixed ;
+    bottom:0;
+    width: 100%;
+    z-index:5;
+}

@@ -1,0 +1,46 @@
+.home-container {
+    height: 100Vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../../assets/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-hero {
+    z-index: 3; 
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+
+              position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-hero h1 {
+    font-size: 8vw;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.my-search-container {
+    max-width: 5000px;
+    float: right;
+}
+
+.home-search {
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+    
